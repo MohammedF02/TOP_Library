@@ -1,0 +1,43 @@
+:root {
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    font-weight: bolder;
+}
+
+.add-book {
+    display: flex;
+    justify-content: center;
+    margin: 3em;
+}
+
+.add-book-button {
+    border: none;
+    background: none;
+    font-weight: bolder;
+    font-size: x-large;
+    cursor: pointer;
+}
+
+.add-book-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    width: 20em;
+}
+
+.add-book-form input {
+    height: 1.5em;
+}
+.add-book-form button,
+.add-book-form select {
+    height: 1.8em;
+}
