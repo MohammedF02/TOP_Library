@@ -37,7 +37,23 @@ header {
 .add-book-form input {
     height: 1.5em;
 }
+
 .add-book-form button,
 .add-book-form select {
     height: 1.8em;
+}
+
+.books-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding-left: 3em;
+    gap: 4em;
+}
+
+.book-card {
+    background-color: rgb(246, 244, 242);
+}
+
+.read-button {
+    margin-right: 10px;
 }
